@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="with=devide-width, initial-scale=1.0">
+        <title> Fahrradwerkstatt </title>
+        <link rel="stylesheet" href="arnogest.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+           <nav>
+                <a href="index.html"><img src="./Logo1.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="versteckMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Produkte.html">Produkte</a></li>
+                        <li><a href="Leistungen.html">Leistungen</a></li>
+                        <li><a href="Team.html">Team</a></li>
+                        <li><a href="Kontakt.html">Kontakt</a></li>
+                        <li><a href="Impressum.html">Datenschutzerklärung</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="zeigMenu()"> </i>
+           </nav>
+           <h1> Unser Team</h1>
+        </section>
+
+        <!-------einzelne Gesichter---------->
+        <section class="Inhalt">
+            <h1>Unser Team bei Masalkhi</h1>
+            <p> ich hab keinen Ahnung, warum ich so unzufrieden bin</p>
+
+            <div class="row">
+                <div class="inhalt-col">
+                    <img src="bilder/TeamP/Leonie Winkler.jpeg">
+                    <h3>Mariam Masalkhi</h3>
+                    <p>Ich bin die Geschäftsführerin und bin leidenschaftlischer Radfahrer. Bei uns werden Sie garantiert fündig</p>               
+                         </div>
+                <div class="inhalt-col">
+                    <img src="bilder/TeamP/Albert Masalkhi.jpeg">
+                    <h3>Albert Winkler</h3>
+                    <p>Ich bin ihre Beraterin und stehen Ihnen gerne zur Seite, damit auch Sie das geeignete Fahrrad finden</p>
+                </p>
+                </div>
+                <div class="inhalt-col">
+                    <img src="bilder/TeamP/Maximilian Lesers.jpeg">
+                    <h3>Maximilian Lesers</h3>
+                    <p>Wer kennt es nicht. Ihr Fahrrad ist nicht funktionstüchtig und Sie brauchen Hilfe. Für den Fall brauchen Sie mich.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-----Inhalt der Seite des Teams----->
+
+
+        <section class="InhaltTeam">
+            <div class="row">
+                <div class="team-col">
+                    <h1>Unser Team</h1>
+                    <p> Unsere Mission bei Masalkhi ist es, den Menschen zum Erfolg zu verhelfen, indem wir Teams auf der ganzen Welt eine mühelose Zusammenarbeit ermöglichen. Durch eine effektive Zusammenarbeit am Arbeitsplatz heben Sie Teamwork auf die nächste Stufe. Sie ermöglicht es Ihren Teammitgliedern, ihre Fähigkeiten, Talente und Ideen einzusetzen, um ein gemeinsames Ziel zu erreichen. 
+
+                        Wenn die Zusammenarbeit am Arbeitsplatz richtig umgesetzt wird, kann sie sowohl Ihr Team als auch das gesamte Unternehmen positiv beeinflussen. Zusammenarbeit kann die Effizienz verbessern und sowohl Innovationen als auch die Beziehungen innerhalb des Teams fördern. In diesem Artikel sehen wir uns die Vorteile und Herausforderungen eines kollaborativen Arbeitsumfeldes an, zeigen, welche Fähigkeiten Ihr kollaboratives Team aufweisen sollte und wie Sie Ihre Teammitglieder dabei unterstützen, eine innovative und positive Arbeitsatmosphäre zu schaffen.
+                        
+                        </p>
+                    <a href="" class="btn zusehen">weitere Infos</a>
+                </div>
+                <div class="team-col">
+                    <img src="bilder/TeamP/Teambild.jpeg">
+                </div>
+            </div>
+        </section> 
+
+
+        <!----------Produkte-------------> 
+        <!----------Team- campus------------> 
+        <!------Inhalt- facilities---->
+        <!-------Kontakt--------->
+        <!------Impressum-->
+        <!----------footer----->
+
+        <section class="footer">
+            <h4>Social Media </h4>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-youtube"></i>
+            </div>
+
+        </section>
+
+
+        <!-----------------------> 
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function zeigMenu(){
+                navLinks.style.right = "0";
+            }
+            function versteckMenu(){
+                navLinks.style.right = "-200px";
+            }
+
+
+        </script>
+
+    </body>
+</html>
