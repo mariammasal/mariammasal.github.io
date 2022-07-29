@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="with=devide-width, initial-scale=1.0">
+        <title> Fahrradwerkstatt </title>
+        <link rel="stylesheet" href="arnogest.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="header">
+           <nav>
+                <a href="index.html"><img src="./Logo1.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="versteckMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Produkte.html">Produkte</a></li>
+                        <li><a href="Leistungen.html">Leistungen</a></li>
+                        <li><a href="Team.html">Team</a></li>
+                         <li><a href="Kontakt.html">Kontakt</a></li>
+                        <li><a href="Impressum.html">Datenschutzerklärung</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="zeigMenu()"> </i>
+           </nav>
+        <div class="text-box">
+            <h1>Masalkhi Bike GmbH</h1>
+            <p></p>
+            <a href="Produkte.html" class="btn">Hier fnden Sie unsere Fahrräder</a>
+        </div>
+        </section>
+
+
+       <!----------Einleitung Produkte-------------> 
+
+       
+        
+        <section class="Produkte">
+            <h1> Unser Team bei Masalkhi</h1>
+            <p>Im Jahre 2011 ist unser Shop in Aachen gegründet. Unsere Filiale, die damals vier Mitarbeiter beschäftigt, ist mit Ihrem Vertrauen gewachsen und beschäftigt heutzutage in Ihren 20 Filialen <br>
+                und unserem Online-Shop mehr als 150 motivierende Mitarbeiter.Unser Version ist, dass wir der Gesundheit unserer Kunden und der Klima etwas gutes Tun und dabei eine gute Preis-Leistung -Bilanz ziehen. <br>
+                Gute Fahrräder müssen nicht immer überteuert sein. Wir sehen es ganz anders. Um eine Verkehrswende zu schaffen, muss die breite Maße der Gesellschaft mit qualitativ hochwertige Fahrräder ausgerüstet sein. <br>
+                In unserer individuellen Beratung versuchen wir jedem Geschmack und jedem Budget gerecht zu werden und das passende Produkt zu finden. Unser umfangreiches Sortiment können Sie nicht nur in unserem <br>
+                Fahrrad-Online-Shop, sondern auch bundesweit in sämtlichen Filialen kaufen. Sehen Sie sich um und lassen Sie sich inspirieren.<br>
+                <br>
+                Als wertorientiertes Unternehmen konnten wir diese Ziele mit unserem wirtschaftlichen Gewinn reibungslos kombinieren.</p> 
+            
+            <div class="row">
+                <div class="course-col">
+                    <h3>Umweltbewusst</h3>
+                    <p>Wir wollen unseren Beitrag leisten, um den Planeten zu retten. Kein Fahrzeug der Welt hat eine so gute Umweltbilanz wie das Fahrrad. </p>
+                </div>
+                <div class="course-col">
+                    <h3>Fair Traid</h3>
+                    <p>Unsere Produkte werden aus 100% fair gehandelten Metallen und Rohstoffen hergestellt </p>
+                </div>
+                <div class="course-col">
+                    <h3>Nachhaltigkeit</h3>
+                    <p>Dank der hohem Qualität unserer Fahrräder ist eine lange Fahren auf dem Rad garantiert. </p>
+                </div>
+            </div>
+            <h1>DAS ANGEBOT DER WOCHE</h1>
+                <div class="row">
+                    <div class="campus-col">
+                        <img src="bilder/Produkte/E-Bike.jpeg">
+                        <div class="course-col">
+                            <h3>Umweltbewusst</h3>
+                            <p>Wir wollen unseren Beitrag leisten, um den Planeten zu retten. </p>
+                            <h4>399.00€</h4>
+                                <a href="" class="btn">In den Einkaufswagen!</a>
+                        </div>
+                    </div>
+                    <div class="campus-col">
+                        <img src="bilder/Produkte/E-Bike.jpeg">
+                        <div class="course-col">
+                            <h3>Umweltbewusst</h3>
+                            <p>Wir wollen unseren Beitrag leisten, um den Planeten zu retten. </p>
+                            <h4>399.00€</h4>
+                            <a href="" class="btn">In den Einkaufswagen!</a>
+                        </div>
+                    </div>
+                    <div class="campus-col">
+                        <img src="bilder/Produkte/E-Bike.jpeg">
+                        <div class="course-col">
+                            <h3>Umweltbewusst</h3>
+                            <p>Wir wollen unseren Beitrag leisten, um den Planeten zu retten. </p>
+                            <h4>399.00€</h4>
+                            <a href="" class="btn">In den Einkaufswagen!</a>
+                        </div>
+                    </div>
+                    </div>
+        </section>
+        
+       
+
+       <!----------Angebot der Woche------------> 
+      
+        <!------Team- facilities---->
+
+        <!-------Kontakt--------->
+
+        <!----Uns ereichen--Impressum-->
+        
+        <section class="Impressum">
+            <h1>Sie wollen wissen wo Sie uns finden?"</h1>
+            <a href="Kontakt.html" class="btn">Aachen</a>
+        </section>
+        <!----------footer----->
+
+        <section class="footer">
+            <h4>Social Media </h4>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-youtube"></i>
+            </div>
+
+        </section>
+
+
+        <!-----------------------> 
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function zeigMenu(){
+                navLinks.style.right = "0";
+            }
+            function versteckMenu(){
+                navLinks.style.right = "-200px";
+            }
+
+
+        </script>
+
+    </body>
+</html>

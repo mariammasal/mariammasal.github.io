@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="with=devide-width, initial-scale=1.0">
+        <title> Fahrradwerkstatt </title>
+        <link rel="stylesheet" href="arnogest.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+           <nav>
+                <a href="index.html"><img src="./Logo1.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="versteckMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Produkte.html">Produkte</a></li>
+                        <li><a href="Leistungen.html">Leistungen</a></li>
+                        <li><a href="Team.html">Team</a></li>
+                        <li><a href="Kontakt.html">Kontakt</a></li>
+                        <li><a href="Impressum.html">Datenschutzerklärung</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="zeigMenu()"> </i>
+           </nav>
+           <h1>Unsere Leistungen</h1>
+        </section>
+
+        <!-----Inhalt der Seite des Teams----->
+        <!----------Produkte-------------> 
+        <!----------Team- campus------------> 
+        <!------Inhalt-Leistungen- facilities---->
+        <section class="Leistungen-content">
+            <div class="row">
+                <div class="Hälfte-links">
+                    <img src="bilder/Leistungen.jpeg">
+                    <h2>Unsere Dienstleistungen</h2>
+                    <p>Qualität und Sicherheit sind uns sehr wichtig. Darum bekommen sämtliche neuen Bikes einen Rundum- Check, bevor Du sie überhaupt zu Gesicht bekommst. Dein Rad benötigt eine Wartung, oder Du möchtest eine Abstimmung vornehmen lassen? Kein Problem! Kontaktiere uns vorab und wir vereinbaren einen Termin mit Ihnen. Oder kommen Sie einfach vorbei.</p>
+                
+                    <div class="Kommentare">
+                        <h3>Teilen Sie uns Ihre Erfahrungen mit</h3>
+                        <form class="Kommentar-Format">
+                            <input type="text" placeholder="Ihr Name">
+                            <input type="email" placeholder="Ihre Email-Adresse">
+                            <textarea rows="6" placeholder="Welche Uhrzeit(en) wären Ihnen recht?"></textarea>
+                            <button type="submit" class="btn zusehen" >Abschicken!</button>
+                        </form>
+                    </div>
+                
+                </div>
+                <div class="Hälfte-rechts">
+                    <h3>All unsere Leistungen auf einen Blick</h3>
+                    <div>
+                        <span>Radwechsel</span><span>3.99€</span>
+                    </div>
+                    <div>
+                        <span>Luftpumpen</span><span>1.99€</span>
+                    </div>
+                    <div>
+                        <span>Profilwechsel</span><span>7.99€</span>
+                    </div>
+                    <div>
+                        <span>Bremswechsel</span><span>8.99€</span>
+                    </div>
+                    <div>
+                        <span>Einölung der Kette</span><span>4.99€</span>
+                    </div>
+                    <div>
+                        <span>Radwechsel</span><span>9.99€</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-------Kontakt--------->
+        <!------Impressum-->
+        <!----------footer----->
+
+        <section class="footer">
+            <h4>Social Media </h4>
+             <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-youtube"></i>
+            </div>
+
+        </section>
+
+
+        <!-----------------------> 
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function zeigMenu(){
+                navLinks.style.right = "0";
+            }
+            function versteckMenu(){
+                navLinks.style.right = "-200px";
+            }
+
+
+        </script>
+
+    </body>
+</html>
